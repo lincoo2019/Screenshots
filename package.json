@@ -1,0 +1,22 @@
+{
+  "name": "screenshots",
+  "version": "1.0.0",
+  "description": "预览图生成器 - 玻璃背景效果",
+  "main": "index.html",
+  "scripts": {
+    "start": "http-server -p 8000 -c-1",
+    "dev": "http-server -p 8000 -c-1 -o",
+    "build": "echo 'Static HTML project - no build step required'",
+    "serve": "http-server -p 8000 -c-1"
+  },
+  "keywords": [
+    "screenshots",
+    "preview",
+    "glass-morphism"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
